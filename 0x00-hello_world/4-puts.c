@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
- * main - initialises char variables to store string then prints using puts
- *
- * Return : void
+   * main - starts the char vriable to store then it prints by using puts
+   *
+   * Return : void
  */
-int main (void)
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	puts ("\"Programming is like building a multilingual puzzle");
 	return(0);
 }
