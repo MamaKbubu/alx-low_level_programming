@@ -20,11 +20,11 @@ int main(void)
 	{
 		printf(" and is greater than 5");
 	}
-	if (x == 0)
+	else if (x == 0)
 	{
 		printf(" and it is 0");
 	}
-	if (x < 6 && != 0)
+	else
 	{
 		printf(" and is less than 6 and not 0");
 	}
