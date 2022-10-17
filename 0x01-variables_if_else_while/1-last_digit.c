@@ -22,7 +22,7 @@ int main(void)
 	}
 	else if (x == 0)
 	{
-		printf(" and it is 0");
+		printf(" and is 0");
 	}
 	else
 	{
