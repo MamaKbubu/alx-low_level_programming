@@ -22,7 +22,7 @@ int main(void)
 	}
 	if (x == 0)
 	{
-		print(" and it is 0");
+		printf(" and it is 0");
 	}
 	if (x < 6 && != 0)
 	{
