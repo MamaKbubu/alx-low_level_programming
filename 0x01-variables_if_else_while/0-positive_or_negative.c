@@ -16,7 +16,7 @@ int main(void)
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n < 0)
-		print("%d is negative\n", n);
+		printf("%d is negative\n", n);
 	else
 		printf("%d id zero\n", n);
 	return (0);
