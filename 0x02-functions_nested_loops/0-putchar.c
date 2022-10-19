@@ -10,7 +10,7 @@ int main(void)
 	int i;
 
 	for (i = 0 ; i <= 7; i++)
-		_puthchar(line[i]);
+		_putchar(line[i]);
 	_putchar('\n');
 	return (0);
 }
