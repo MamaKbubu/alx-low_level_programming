@@ -9,18 +9,18 @@
 * Return: 0
 */
 
-int main(void)
+int largest( int a, int b, int c)
 {
-	int largest;
+	int largest ;
 
 	if (a > b)
 	{
 		if (b > c)
 			largest = a;
 		else if (a > c)
-			largest a;
+			largest = a;
 		else
-			largest c;
+			largest = c;
 	}
 	else
 	{
