@@ -8,7 +8,8 @@
 void print_alphabet_x10(void)
 {
 	char alpha;
-		for (alpha = 'a'; alpha <= 'z' ; alpha++)
-			_putchar(stderr, 'alpha' (stderr));
+	
+	for (alpha = 'a'; alpha <= 'z' ; alpha++)
+			_putchar(alpha);
 	_putchar('\n');
 }
