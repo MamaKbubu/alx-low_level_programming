@@ -1,0 +1,27 @@
+#include "main.h"
+
+/**
+ * print_sign - prints the sign of the number
+ * @n: the number of the sign to be printed
+ * Return: 1 if the number is greter than zero
+ * -1 if the number is less than zero
+*/
+
+int print_sign(int n)
+{
+	if (n > 0)
+	{
+		printf('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		printf('0');
+		return (0);
+	}
+	else
+	{
+		print('-');
+		return (-1);
+	}
+}
