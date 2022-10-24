@@ -2,14 +2,16 @@
 #include <stdio.h>
 
 /**
- * swap_int - a function that swaps the value of two integers
- *@a: int a
- *@b: int b
+ * swap_int - swaps two integers
+ * @a: first integer
+ * @b: secong integer
 */
 
-void swap_int(int a*, int *b)
+void swap_int(int *a, int *b)
 {
-	int q = *a;
-	*a = *b;
-	*b = q;
+	int *a;
+	int *b;
+
+	swap_int(&a, &b);
+	_putchar("a=%d, b%d\n", a, b)
 }
