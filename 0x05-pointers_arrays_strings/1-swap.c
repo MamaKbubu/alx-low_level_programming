@@ -9,9 +9,9 @@
 
 void swap_int(int *a, int *b)
 {
-	int *a;
-	int *b;
+	int k;
 
-	swap_int(&a, &b);
-	_putchar("a=%d, b%d\n", a, b)
+	k = *a;
+	*a = *b;
+	*b = k;
 }
